@@ -1,0 +1,18 @@
+
+public class Bishop extends Chess {
+	
+	public static void movement() {
+		System.out.println("You can only move diagonally, but you can go all the way across the board if you wanted too");
+	}
+	public static void gamePlay()
+	{
+		System.out.println("Here's a long list of how to play as bishop");
+		System.out.println("Chess players who know how to unleash the full power of the bishop will be at a distinct advantage. Here are some general bishop tactics that can help you become a better chess player.\r\n"
+				+ "\r\n"
+				+ "Seek out open diagonals: A bishop’s potential is maximized by placing it on an open, long diagonal—that is, a position in which the bishop’s potential path is not obstructed by friendly pawns or an opponent’s pieces. Unlike a knight, which is most effective in the middle of the board, a bishop on an open diagonal can exert significant influence even if it’s in the corner or on the side of the board. Because bishops begin the game obstructed by pawns, the bishops are often at their most effective in the middlegame once the other pieces move and the pawn blockade has been cleared.\r\n"
+				+ "Good bishops vs. bad bishops: Bishops are referred to as “good” and “bad” based on their position relative to their pawns. If the majority of your pawns are on the same color square as your bishop, that bishop is typically regarded as a “bad bishop” because its movement and influence is restricted by the pawns. Conversely, a bishop that occupies the opposite color as the majority of your pawns is considered a “good bishop” as it is able to move freely and exert more influence over the chessboard. Though a good bishop is generally considered to be more advantageous, a bad bishop can often be useful in defending a pawn.\r\n"
+				+ "Maximize active bishops: Bishops that are able to move freely outside of its pawn chain are known as active bishops, whereas a bishop that is trapped behind its pawn chain is considered a passive bishop. Both “good” and “bad” bishops can be active or passive. An active bishop is usually a more powerful piece due to its flexibility and range.\r\n"
+				+ "Try a fianchetto: A fianchetto is a special move sequence that chess players use to achieve quick development of the bishop. The first move of the fianchetto involves pushing the pawn on the b- or g-file one or two squares forward. Once the pawn moves, the bishop can be developed to the second rank. Not only does this exert immediate control on the center of the board, but it also provides a solid defense for king castling. If you are playing as the white pieces, a fianchetto can place swift pressure on your opponent’s development. If you’re playing with the black pieces, a fianchetto may help you develop a counter-attack and exert influence over the center of the board.\r\n"
+				+ "Utilize bishops in the endgame: Bishops can be particularly effective in the endgame, especially when the only other pieces remaining in the game are pawns. The bishop’s long range allows it to both protect your pawns and threaten your opponent’s pawns, making it easier to promote the pawns you have left and eventually deliver checkmate. In certain situations, having an extra bishop in an endgame is not enough to checkmate your opponent’s king. If your only remaining pawn is a rook pawn—that is, a pawn on the a or h-file—and the square on which the pawn would achieve promotion is a different color square than the ones your bishop occupies, then the opponent’s king may be able to act as a barrier and prevent promotion, forcing a stalemate. Similarly, endgames in which both the white bishop and black’s bishop remain but occupy different color squares usually end in a draw.");
+	}
+}
