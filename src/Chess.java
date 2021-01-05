@@ -2,6 +2,12 @@ import java.util.Scanner;
 public class Chess {
 	
 	
+	public static void main(String [] args)
+	{
+		chooseColor();
+		Bishop x = new Bishop();
+		
+	}
 	public static void chooseColor()
 	{
 		Scanner uI = new Scanner (System.in);
