@@ -6,6 +6,7 @@ public class Chess {
 	{
 		chooseColor();
 		Bishop x = new Bishop();
+		Bishop.gamePlay();
 		
 	}
 	public static void chooseColor()
